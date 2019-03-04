@@ -1,0 +1,60 @@
+body {
+  padding-top: 70px;
+  background-color:#eeeeee;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 150px;
+  }
+  
+}
+
+
+.img {
+  display: block;
+  margin-bottom:auto;
+  margin-top:auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+}
+p {
+  text-align: center;
+}
+h3   {
+  text-align: center;
+}
+.contenidor{
+  color:grey;
+  background-color:white;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+}
+
+.button {
+  color: grey
+}
+.navbar-custom {
+    background-color: #ff5500;
+    color
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.pad {
+  padding-left: 10px
+}
