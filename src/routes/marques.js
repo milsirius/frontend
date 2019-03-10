@@ -15,7 +15,6 @@ router.get('/marcas', async (req, res) =>{
     if (noms.length>4) array.push(noms.slice(0,6))
     else array.push(noms)
   };
-  console.log(array)
   res.render('marques',{
     marques,
     array

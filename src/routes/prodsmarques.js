@@ -16,7 +16,6 @@ router.get('/marcas/:marca', async (req, res) =>{
     comu = marca[0].codi;
     query = {"idprod":{'$regex': comu}}
     var noms = await Dada.find(query).distinct("nomprod");
-    console.log(noms)
     var dades = []
     for (var i = 0; i < noms.length; i++) {
       var no_trobat = true;

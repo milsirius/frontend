@@ -18,7 +18,6 @@ router.get('/idprod/:idprod', async (req, res) =>{
   const id = req.params.idprod
   query = { "nomprod":id}
   const dades = await Dada.find(query).sort({"preu":1});
-  console.log(dades)
   res.render('prods',{
     dades
   });

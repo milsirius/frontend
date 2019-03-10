@@ -51,7 +51,7 @@
         <% for(var i = 0; i< dades.length; i++) { %>
         <div onclick="location.href='<%= dades[i].link %>';"  class="col-md-4" style="background-color:white;cursor:pointer;">
           <img style="margin-top: 15px" width="<%= dades[i].width %>" height="<%= dades[i].height %>" src="<%= dades[i].linkimg %>">
-          <p style="margin-top: 15px"><%= dades[i].nomprod %></p>
+          <p style="margin-top: 15px"><a style="color:#212529; text-decoration:none" href="http://masbarato.tk/idprod/<%= dades[i].nomprod %>"> <%= dades[i].nomprod %></a></p>
           <p><%= dades[i].preu %> €</p>
 
         </div>
